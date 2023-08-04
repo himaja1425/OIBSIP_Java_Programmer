@@ -66,7 +66,7 @@ public static void TransactionHistory(){                       //Show transactio
             if(withdrawAmount<TotalBalance-2000){
                 TotalBalance=TotalBalance-withdrawAmount;
                 System.out.println("--------------WITHDRAWAL SUCCESSFUL-------------");
-                System.out.println("------------Remaining balance: "+"'"+TotalBalance+"' " +"-------------");
+                System.out.println("----Remaining balance: "+"'"+TotalBalance+"' " +"---- \n");
                 Str= formatter.format(date)+"  WITHDRAW             "+ "'-"+withdrawAmount+"'  '"+TotalBalance+"'";
 
                 History(Str);                                                                // save transaction history
@@ -152,7 +152,7 @@ public static void Deposit(){                                                   
 
 
     public static void main(String[] args) {
-        System.out.println("--------------------------------- WELCOME TO ATM ---------------------------------");
+        System.out.println("------- WELCOME TO ATM --------\n" );
         checkUserPinAndId();
 
     }
