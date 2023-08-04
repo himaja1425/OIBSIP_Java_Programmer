@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ATM {
-    static int userId = 1234;
-    static int userPin = 1234;
+    static int userId = 9876;
+    static int userPin = 9632;
     static int noTrial = 3;
-    static int TotalBalance=200000;
+    static int TotalBalance=100000;
     static Scanner sc = new Scanner(System.in);
     static ArrayList<String> arr=new ArrayList<String>();
     static String Str;
